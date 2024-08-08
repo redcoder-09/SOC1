@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="logo.png" id="img1" alt="Logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#hero">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">ABOUT ME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects-carousel">PROJECTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#TESTIMONIALS">TESTIMONIALS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contactme">CONTACT ME</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+    
+    <!--Hero Section-->
+    <section id="hero">
+       <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="homename">Yash Krishnani</p>
+                <p>A finance and technology enthusiast currently 
+                    pursuing a B.Tech in Electrical from the prestigious
+                    Indian Institute of Technology, Bombay.
+                </p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="yash.jpeg" class="img-fluid" style="width: 40%; height: auto;" alt="Yash Krishnani">
+            </div>
+        </div>
+       </div>
+       <img src="wave1.png" style="width: 100%;" alt="Wave">
+    </section>
+
+   <!--About Me-->
+   <section id="aboutme">
+    <div class="container text-center">
+        <h1 style="font-size: 300%; color: #0096FF;" class="Hobbytit">Hobbies:</h1>
+        <div class="row">
+            <div class="col-md-4 aboutme">
+                <img src="football.jpg" class="hobbies" alt="Football">
+                <h4>Football</h4>
+            </div>
+            <div class="col-md-4 aboutme">
+                <img src="travel.jpg" class="hobbies" alt="Travel">
+                <h4>Travel</h4>
+            </div>
+            <div class="col-md-4 aboutme">
+                <img src="interact.jpg" class="hobbies" alt="Interact">
+                <h4>Interact</h4>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!--Carousel-->
+   <section id="projects-carousel">
+    <div class="container">
+      <h1 style="font-size: 300%; color: #0096FF;" class="Hobbytit text-center">Projects</h1>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="card mx-auto" style="width: 18rem;">
+                  <img src="nn.jpeg" class="card-img-top" alt="Project Image 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Intro to the Realm of Neural Networks</h5>
+                      <p class="card-text">WIDS-Analytics Club</p>
+                      <a href="#" class="btn btn-primary">Github Link</a>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="card mx-auto" style="width: 18rem;">
+                  <img src="dice.jpeg" class="card-img-top" alt="Project Image 2">
+                  <div class="card-body">
+                      <h5 class="card-title">Probability and Statistics</h5>
+                      <p class="card-text">Summer of Science 2024</p>
+                      <a href="#" class="btn btn-primary">Github Link</a>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="card mx-auto" style="width: 18rem;">
+                  <img src="web.jpeg" class="card-img-top" alt="Project Image 3">
+                  <div class="card-body">
+                      <h5 class="card-title">WebCraft- From Basics to Mastery</h5>
+                      <p class="card-text">Summer of Code 2024</p>
+                      <a href="#" class="btn btn-primary">Github Link</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   </section>
+<!--Testimonials-->
+   <section id="TESTIMONIALS">
+   <div class="container center">
+    <h1 class="Hobbytit text-center" style="margin-top: 10%; color: #0096FF;">Testimonials</h1>
+    <div class="row">
+      <div class="col-md-5 testimonials">
+        <p>I had the pleasure of collaborating with Yash on his neural networks project, and I am thoroughly impressed by his dedication and expertise. Yash approached this complex subject with remarkable enthusiasm and a relentless drive to learn. His project demonstrated both a profound understanding of neural network theory and an exceptional ability to apply this knowledge practically.</p>
+          <img src="test1.jpeg" class="userimg">
+          <p class="user details"><b>Mr. James Anderson</b><br> Co-founder at NEXT Technologies</p>
+      </div>
+      <div class="col-md-5 testimonials">
+        <p>I am delighted to write this testimonial for Yash Krishnani, who has 
+          consistently demonstrated excellence in writing 
+          comprehensive reports on probability and statistics. Yash's deep understanding
+           of the subject matter, combined with his ability to communicate complex 
+           concepts clearly and effectively, has been truly impressive. Yash is a quick learner 
+          and I have got no doubts over his ceiling of potential</p>
+          <img src="test2.jpeg" class="userimg">
+          <p class="user details"><b>Mr. Hannah Aniston</b><br> Chief Analyst at Barclays</p>
+      </div>
+    </div>
+   </div>
+  </section>
+   <!--Contact me-->
+   <section id="contactme">
+      <div class="text-center p-3" style="background-color: #0096FF; margin-top: 5%;">
+        <!-- Social Media Links -->
+        <section class="mb-4">
+            <!-- LinkedIn -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com" role="button"
+               target="_blank">
+               <i class="fab fa-linkedin"></i>
+            </a>
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com" role="button"
+               target="_blank">
+               <i class="fab fa-instagram"></i>
+            </a>
+            <!-- WhatsApp -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://wa.me/your-number" role="button"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i>
+            </a>
+        </section> 
+        <p>Yash Krishnani 2024 (Summer of Code)</p>
+      </div>
+    </section>
+
+  <!-- Smooth Scroll Script -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+
+</body>
+</html>

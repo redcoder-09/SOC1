@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.redu{
+    width: 100vw;
+    height: 25vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 100px;
+    color: white;
+}
+
+.blue{
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 700%;
+    overflow-wrap: normal;
+    text-align: center;
+}
+
+.redb{
+    width: 100vw;
+    height: 25vh;
+    background-color: red;
+    position: relative;
+}

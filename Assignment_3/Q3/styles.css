@@ -1,0 +1,139 @@
+#nav-bar{
+    position: sticky;
+    margin-top: 0;
+    z-index: 10;
+}
+
+#img1{
+    width:20%;
+    height:auto;
+}
+
+.navbar
+{
+    background-image: radial-gradient(circle at center,  #ffffff 1%, #0096FF 90%);
+    padding: 0 !important;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #000000 !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars
+{
+    color: #000000;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    outline: none;
+}
+
+/*Hero Section*/
+
+#hero{
+    background-image: radial-gradient(circle at center,  #ffffff, #0096FF);
+    color:#000000;
+    padding-top: 5%;
+}
+
+.homename{
+    font-size: 400%;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+/*About ME*/
+
+#aboutme{
+    padding: 80px 0;
+}
+
+.hobbies{
+    width: 60%;
+    height: 60%;
+    margin-top: 20px;
+}
+
+.aboutme{
+    padding: 20px;
+    text-align: center;
+}
+
+.aboutme h4{
+    text-transform: uppercase;
+}
+
+.Hobbytit {
+    position: relative;
+    padding-bottom: 10px; /* Ensure some space for the line */
+}
+
+.Hobbytit::before {
+    content: '';
+    background: #0096FF;
+    height: 5px; /* Adjust height to make it more visible */
+    width: 150px; /* Adjust width as needed */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0; /* Ensure it is at the bottom of the element */
+}
+
+/*Projects*/
+
+.carousel{
+  height:500px;
+}
+
+.card-body{
+    margin: auto;
+}
+
+#projects-carousel{
+    background-image: radial-gradient(circle at center,  #ffffff 1%, #0096FF 90%);
+    color: white;
+    height: 25%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: blue; /* Add a background color to ensure visibility */
+    border-radius: 50%; /* Make the controls circular */
+    width: 200px; /* Set a width */
+    height: 200px; /* Set a height */
+    background-size: 100px 100px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%; /* Ensure the clickable area is large enough */
+}
+
+.card-body{
+    text-align: center;
+}
+
+
+/*testimonials*/
+
+.userimg{
+    border: 1px solid #0096FF;
+    width: 7rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+
+.testimonials
+{
+    border-left: 4px solid #0096FF;
+    margin: auto;
+}

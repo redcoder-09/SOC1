@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<style>
+    html {
+    scroll-behavior: smooth;
+    }
+    .Full_Body{
+        background-color: aquamarine;
+    }
+    .Heading{
+        background-color: burlywood;
+        text-align: center;
+        font-family:'Brush Script MT', cursive;
+        font-size: 30px;
+        line-height: 150%;
+    }
+    table, tr, td{
+        border-collapse:collapse ;
+    }
+    table{
+        width:100%;
+        text-align: center;
+    }
+    button{
+        border: 1px solid #3498db;
+        background-color: transparent;
+        height: 40px;
+        width: 700px;
+        color: #3498db;
+        font-size: 1.5em;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+    }
+    p{
+        font-size: 45px;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+    hr{
+        border: 1px solid;
+        color: red;
+    }
+    
+</style>
+<body style="background-color: powderblue;">
+    <div class="Heading">
+    <h1>Yash Krishnani</h1>
+    <h2><i>An Aspiring Web developer</i></h2>
+     </div>
+    <hr />
+
+    <table>
+        <tr>
+            <td bgcolor="pink"><a href="aboutme/aboutme.html"><button>About Me</button></a></td>
+            <td bgcolor="lightgreen"><a href="contactme/contactme.html"><button>Contact Me</button></a></td>
+        </tr>
+    </table>
+    <table>
+        <tr><td><p>Hey there, I am Yash Krishnani, Currently pursuing a B.Tech in Electrical Engineering from IIT Bombay. Welcome to my Introduction Website, Feel free to explore this website and please submit the below given form as a part of a Survey that I am conducting</p></td>
+        <td><img src="cristiano.jpg" style="padding-top: 5px; padding-bottom: 0%;"></td>
+        </tr>
+    <table>
+    <form action="aboutme/aboutme.html">
+        <br>
+        <br>
+        <hr/>
+        <div style="font-size: 30px; padding-bottom: 1%;"><i>Please take out some time to fill this short survey</i></div>
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+        <br>
+        <br>
+        <label for="department">Department:</label>
+        <input type="text" id="department">
+        <br>
+        <br>
+        <label for="year">Year:</label>
+        <input type="number" id="year">
+        <br>
+        <br>
+        <div style="padding-bottom: 1%;">Gender:</div>
+        <label for="male">Male</label>
+        <input type="radio" id="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female">
+        <label for="others">Others</label>
+        <input type="radio" id="others">
+        <br>
+        <br>
+        <input type="submit" value="Submit" style="size: 10px;">
+    </form>
+</body>
+</html>

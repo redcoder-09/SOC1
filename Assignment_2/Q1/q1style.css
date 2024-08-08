@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.box1{
+    border: 2px solid black;
+    width: 30%;
+    padding: 1%;
+}
+
+
+.box2{
+    display: inline-block;
+    border: 2px solid blue;
+    margin-left: 3%;
+    width: 30%;
+    margin-top: 3%;
+    padding: 1%;
+}
+
+.box21{
+    border: 1px solid rgb(49, 255, 7);
+    width: 60%;
+}
+
+.box3{
+    display: inline-block;
+    border: 2px solid blue;
+    margin-left: 3%;
+    width: 15%;
+    margin-top: 3%;
+    padding: 1%;
+}
+
+.box31{
+    display: inline;
+    border: 1px solid rgb(49, 255, 7);
+    margin: 3%;
+}
+.box32{
+    display: inline;
+    border: 1px solid rgb(49, 255, 7);
+    margin: 3%;
+}
+.box33{
+    display: inline;
+    border: 1px solid rgb(49, 255, 7);
+    margin: 3%;
+}
